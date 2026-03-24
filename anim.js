@@ -7,11 +7,11 @@ var lyricsData = [
   { text: "Eres y siempre seras el amor de mi vida", time: 15 },
   { text: "No importa el tiempo que pase", time: 18 },
   { text: "Yo estare aqui para ti", time: 27 },
-  { text: "Para entregarte todo lo que te prometi", time: 32 },
-  { text: "Y cuando estemos viejitos", time: 42 },
-  { text: "recordaremos cada momento como si hubiera sido ayer", time: 50 },
-  { text: "Te amo mi principessa <3", time: 58 },
-  { text: "No olvides descargar el video que te envié", time: 61 },
+  { text: "Para entregarte todo lo que te prometi", time: 30 },
+  { text: "Y cuando estemos viejitos", time: 45 },
+  { text: "recordaremos cada momento como si hubiera sido ayer", time: 55 },
+  { text: "Te amo mi principessa <3", time: 65 },
+  { text: "No olvides descargar el video que te envié", time: 75 },
 ];
 
 // Animar las letras
