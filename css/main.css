@@ -240,47 +240,57 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #f9fd25;
+  background-color: #ff8fd1;
   /* background-color: #fd2525; */
-  filter: blur(10vmin);
+  filter: blur(8vmin);
 }
 .flower__leaf {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 8vmin; /* Ancho del pétalo aumentado */
-  height: 12vmin; /* Altura del pétalo aumentada */
-  border-radius: 70% 70% 70% 70%; /* Parte superior redondeada */
-  transform: scale(1.2);
-  box-shadow: inset -5px -8px 12px rgba(0,0,0,0.2);
-  background-color: linear-gradient(135deg, #ff9ecf, #ff4fa3); /* Color típico de tulipán */
+
+  width: 9vmin;
+  height: 13vmin;
+
+  border-radius: 80% 80% 70% 70%;
   transform-origin: bottom center;
-  opacity: 0.9;
-  box-shadow: inset 0 0 1.5vmin rgba(255, 255, 255, 0.5);
+
+  background: radial-gradient(circle at 30% 30%, #ffd1ea, #ff6bb5 60%, #d81b7d);
+
+  box-shadow:
+    inset -8px -10px 15px rgba(0,0,0,0.25),
+    inset 5px 5px 10px rgba(255,255,255,0.4),
+    0 0 15px rgba(255,105,180,0.5);
+
+  opacity: 0.95;
 }
 
 /* Ajustes individuales para cada pétalo */
 .flower__leaf--1 {
-  transform: translate(-12%, -10%) rotate(-25deg); /* Ajustado para pétalos más grandes */
+  transform: translate(-20%, -12%) rotate(-35deg) scale(1.1); /* Ajustado para pétalos más grandes */
 }
 
 .flower__leaf--2 {
-  transform: translate(-50%, -10%) rotate(0deg); /* Central */
+  transform: translate(-50%, -18%) rotate(0deg) scale(1.2);
+  z-index: 2; /* Central */
 }
 
 .flower__leaf--3 {
-  transform: translate(-88%, -10%) rotate(25deg); /* Ajustado para pétalos más grandes */
+  transform: translate(-80%, -12%) rotate(35deg) scale(1.1); /* Ajustado para pétalos más grandes */
 }
 
 /* Pétalo trasero (si existe) */
 .flower__leaf--4 {
-  width: 7vmin; /* Ajuste proporcional */
-  height: 10vmin; /* Ajuste proporcional */
-  transform-origin: bottom center;
-  border-radius: 0% 0% 40% 40%; /* Igual a los otros pétalos */
-  transform: translate(-50%, -15%) rotate(0deg); /* Más arriba */
-  background-color: #ac6184; /* Color ligeramente más oscuro */
-  z-index: 0; /* Detrás de los otros pétalos */
+  width: 8vmin;
+  height: 11vmin;
+  transform: translate(-50%, -25%) rotate(0deg);
+
+  border-radius: 80%;
+
+  background: radial-gradient(circle at 50% 20%, #ffb3dc, #c21875);
+
+  filter: brightness(0.8);
+  z-index: 0;
 }
 
 .flower__white-circle::after {
@@ -462,14 +472,14 @@ body {
   bottom: 0vmin;
   width: 1vmin;
   height: 1vmin;
-  background-color: rgb(255, 251, 0);
+  background-color: #ff6bb5;
   border-radius: 50%;
   filter: blur(0.2vmin);
   -webkit-animation: light-ans 4s linear infinite backwards;
   animation: light-ans 4s linear infinite backwards;
 }
 .flower__light:nth-child(odd) {
-  background-color: #23f0ff;
+  background-color: #ffc1e6;
 }
 .flower__light--1 {
   left: -2vmin;
