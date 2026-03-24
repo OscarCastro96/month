@@ -30,6 +30,29 @@ body {
   font-weight: bold;
   letter-spacing: 4px;
 }
+.btn-descargar{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+
+  background: linear-gradient(135deg,#ff6bb5,#ff2e93);
+  color: white;
+
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(255,105,180,0.6);
+
+  transition: 0.3s;
+}
+
+.btn-descargar:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 35px rgba(255,105,180,1);
+}
 @media only screen and (max-width: 600px) {
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   #lyrics {
