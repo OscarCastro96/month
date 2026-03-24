@@ -8,7 +8,10 @@ var lyricsData = [
   { text: "No importa el tiempo que pase", time: 18 },
   { text: "Yo estare aqui para ti", time: 27 },
   { text: "Para entregarte todo lo que te prometi", time: 32 },
-  { text: "te amo", time: 33 },
+  { text: "Y cuando estemos viejitos", time: 33 },
+  { text: "recordaremos cada momento como si hubiera sido ayer", time: 35 },
+  { text: "Te amo mi principessa <3", time: 36 },
+  { text: "No olvides descargar el video que te envié", time: 38 },
 ];
 
 // Animar las letras
